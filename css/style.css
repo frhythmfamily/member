@@ -1,0 +1,270 @@
+:root {
+    --primary: #282828;
+    --bg: rgb(250, 250, 250);
+    --red: #960707;
+}
+
+* {
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: var(--bg);
+    color: var(--primary);
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+.wrap {
+    width: 100%;
+    margin: auto;
+    /* position: absolute; */
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem;
+    background-color: var(--bg);
+    border-bottom: 1px solid var(--primary);
+    position: fixed;
+    width: 100%;
+    margin: auto 0;
+    top: 0;
+    /* left: 0; */
+    /* right: 0; */
+    z-index: 9999;
+}
+
+.navbar .navbar-logo {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--primary);
+    width: 15rem;
+    margin-left: 1rem;
+    line-height: 1.5rem;
+    display: inline-flex;
+    align-items: center;
+}
+
+.navbar .navbar-logo img {
+    width: 5rem;
+}
+
+.navbar .navbar-logo span {
+    color: var(--primary);
+}
+
+.navbar .navbar-nav a {
+    color: var(--primary);
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    right: 0;
+    position: relative;
+}
+
+.navbar .navbar-nav a.active {
+    color: var(--red);
+}
+
+.navbar .navbar-nav a:hover {
+    color: var(--red);
+}
+
+.navbar .navbar-nav a::after {
+    content: '';
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.2rem solid var(--primary);
+    transform: scaleX(0);
+    transition: 0.2s linear;
+}
+.navbar .navbar-nav a:hover::after {
+    transform: scaleX(0.5);
+}
+
+.navbar .navbar-nav a.active::after {
+    content: '';
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.2rem solid var(--primary);
+    transform: scaleX(0.5);
+}
+
+.navbar .navbar-extra a {
+    color: var(--primary);
+    margin: 0 0.5rem;
+    width: 25px;
+    height: 25px;
+}
+
+.navbar .navbar-extra a:hover {
+    color: var(--red);
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+.member {
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.member h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.member .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.member .row .container {
+    margin: 1rem;
+}
+
+.member .row .container img {
+    width: 10rem;
+    filter: grayscale();
+    transition: 0.5s;
+}
+
+.member .row .container img:hover {
+    filter: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary);
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+footer .socials {
+    padding: 1rem 0;
+}
+
+footer .socials a {
+    color: #fff;
+    margin: 1rem;
+}
+
+footer .socials a:hover,
+footer .links a:hover {
+    color: var(--red);
+}
+
+footer .socials a .tiktok:hover {
+    fill: var(--red);
+}
+
+footer .links {
+    margin-bottom: 1rem;
+}
+
+footer .links a {
+    color: #fff;
+    padding: 0 1rem;
+}
+
+footer .credit {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+footer .credit a,
+footer .credit p {
+    color: var(--bg);
+    font-weight: 700;
+}
+
+/* Media Queries */
+@media (min-width: 980px) {
+    .wrap {
+        width: 970px;
+    }
+    .navbar {
+        width: 970px;
+    }
+}
+
+/* Laptop  */
+@media (max-width: 1366px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    html {
+        font-size: 62.5%;
+    }
+
+    #hamburger-menu {
+        display: inline-block;
+    }
+
+    .navbar {
+        overflow: hidden;
+    }
+    .navbar .navbar-nav {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: #fff;
+        width: 30rem;
+        height: 100vh;
+        transition: 0.5s;
+    }
+
+    .navbar .navbar-nav.active {
+        right: 0;
+    }
+
+    .navbar .navbar-nav a {
+        color: var(--primary);
+        display: block;
+        margin: 1.5rem;
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+
+    .navbar .navbar-nav a::after {
+        transform-origin: 0 0;
+    }
+
+    .navbar .navbar-nav a:hover::after {
+        transform: scaleX(0.2);
+    }
+}
+
+/* Mobile Phone */
+@media (max-width: 616px) {
+    html {
+        font-size: 60%;
+    }
+}
