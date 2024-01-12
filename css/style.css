@@ -266,7 +266,8 @@ footer .credit p {
         transform-origin: 0 0;
     }
 
-    .navbar .navbar-nav a:hover::after {
+    .navbar .navbar-nav a:hover::after,
+    .navbar .navbar-nav a.active::after {
         transform: scaleX(0.2);
     }
 }
