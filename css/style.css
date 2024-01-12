@@ -140,7 +140,9 @@ body {
 }
 
 .member .row .container {
-    margin: 1rem;
+    display: grid;
+    margin: 1.2rem 1rem;
+    overflow: hidden;
 }
 
 .member .row .container img {
@@ -152,6 +154,13 @@ body {
 .member .row .container img:hover {
     filter: none;
     cursor: pointer;
+    transform: scale(1.1);
+}
+
+.member .row .container h2 {
+    background-color: var(--bg);
+    position: relative;
+    font-size: 1.1rem;
 }
 
 /* Footer */
