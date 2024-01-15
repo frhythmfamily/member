@@ -161,6 +161,7 @@ body {
     background-color: var(--bg);
     position: relative;
     font-size: 1.1rem;
+    text-transform: uppercase;
 }
 
 /* Footer */

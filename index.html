@@ -14,6 +14,12 @@
         <!-- Feather Icons -->
         <script src="https://unpkg.com/feather-icons"></script>
 
+        <!-- AlpineJS -->
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js"></script>
+
+        <!-- App -->
+        <script src="src/app.js" async></script>
+
         <!-- Swipper -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
@@ -41,111 +47,15 @@
             <!-- Navbar End -->
 
             <!-- Member Start -->
-            <section class="member" id="member">
+            <section class="member" id="member" x-data="members">
                 <h1>MEMBER</h1>
                 <div class="row">
-                    <!-- Boys -->
-                    <div class="container">
-                        <img src="img/member/zan.jpg" alt="" />
-                        <h2>ZAN</h2>
-                    </div>
-                    <div class="container">
-                        <img src="img/member/tama.jpg" alt="" />
-                        <h2>TAMA</h2>
-                    </div>
-                    <div class="container">
-                        <img src="img/member/shaldan.jpg" alt="" />
-                        <h2>SHALDAN</h2>
-                    </div>
-                    <div class="container">
-                        <img src="img/member/frenklyn.jpg" alt="" />
-                        <h2>FRENKLYN</h2>
-                    </div>
-                    <div class="container">
-                        <img src="img/member/raihan.jpg" alt="" />
-                        <h2>RAIHAN</h2>
-                    </div>
-                    <div class="container">
-                        <img src="img/member/iqbal.jpg" alt="" />
-                        <h2>IQBAL</h2>
-                    </div>
-                    <!-- Girls -->
-                    <div class="container">
-                        <img src="img/member/alica.jpg" alt="" />
-                        <h2>ALICA</h2>
-                    </div>
-                    <div class="container">
-                        <img src="img/member/mita.jpg" alt="" />
-                        <h2>MITA</h2>
-                    </div>
-                    <div class="container">
-                        <img src="img/member/dinda.jpg" alt="" />
-                        <h2>DINDA</h2>
-                    </div>
-                    <div class="container">
-                        <img src="img/member/sarah.jpg" alt="" />
-                        <h2>SARAH</h2>
-                    </div>
-                    <div class="container">
-                        <img src="img/member/neska.jpg" alt="" />
-                        <h2>NESKA</h2>
-                    </div>
-                    <div class="container">
-                        <img src="img/member/mina.jpg" alt="" />
-                        <h2>MINA</h2>
-                    </div>
-                    <div class="container">
-                        <img src="img/member/ericka.jpg" alt="" />
-                        <h2>ERICKA</h2>
-                    </div>
-                    <div class="container">
-                        <img src="img/member/kezia.jpg" alt="" />
-                        <h2>KEZIA</h2>
-                    </div>
-                    <div class="container">
-                        <img src="img/member/nazwa.jpg" alt="" />
-                        <h2>NAZWA</h2>
-                    </div>
-                    <div class="container">
-                        <img src="img/member/arra.jpg" alt="" />
-                        <h2>ARRA</h2>
-                    </div>
-                    <div class="container">
-                        <img src="img/member/gesya.jpg" alt="" />
-                        <h2>GESYA</h2>
-                    </div>
-                    <div class="container">
-                        <img src="img/member/aqila.jpg" alt="" />
-                        <h2>AQILA</h2>
-                    </div>
-                    <div class="container">
-                        <img src="img/member/kyu.jpg" alt="" />
-                        <h2>KYU</h2>
-                    </div>
-                    <div class="container">
-                        <img src="img/member/laura.jpg" alt="" />
-                        <h2>LAURA</h2>
-                    </div>
-                    <div class="container">
-                        <img src="img/member/felycia.jpg" alt="" />
-                        <h2>FELYCIA</h2>
-                    </div>
-                    <div class="container">
-                        <img src="img/member/bernice.jpg" alt="" />
-                        <h2>BERNICE</h2>
-                    </div>
-                    <div class="container">
-                        <img src="img/member/nadia.jpg" alt="" />
-                        <h2>NADIA</h2>
-                    </div>
-                    <div class="container">
-                        <img src="img/member/ervid.jpg" alt="" />
-                        <h2>ERVID</h2>
-                    </div>
-                    <div class="container">
-                        <img src="img/member/michelle.jpg" alt="" />
-                        <h2>MICHELLE</h2>
-                    </div>
+                    <template x-for="(item, index) in items" :key="index">
+                        <div class="container">
+                            <img :src="`img/member/${item.img}`" :alt="item.name" />
+                            <h2 x-text="item.name"></h2>
+                        </div>
+                    </template>
                 </div>
             </section>
             <!-- Member End -->
