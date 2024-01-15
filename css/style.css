@@ -260,6 +260,7 @@ footer .credit p {
         margin: 1.5rem;
         padding: 0.5rem;
         font-size: 2rem;
+        width: fit-content;
     }
 
     .navbar .navbar-nav a::after {
@@ -268,7 +269,7 @@ footer .credit p {
 
     .navbar .navbar-nav a:hover::after,
     .navbar .navbar-nav a.active::after {
-        transform: scaleX(0.2);
+        transform: scaleX(1);
     }
 }
 
