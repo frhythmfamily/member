@@ -1,7 +1,7 @@
 document.addEventListener('alpine:init', () => {
     Alpine.data('members', () => ({
         items: [
-            {id: 1, np: 'zan', img: 'zan.jpg', nl: 'muhammad yazid fauzan', tl: '11 Juli 1997', zd: 'Cancer', tb: '168 cm', bb: '50 kg', gd: 'B', ig: 'myzdfzn', ytb: 'UCDq7n5XkZIOIfD30hLfTXGg', tt: 'myzdfzn'},
+            {id: 1, np: 'zan', img: 'zan.jpg', nl: 'muhammad yazid fauzan', tl: '11 Juli 1997', zd: 'Cancer', tb: '165 cm', bb: '50 kg', gd: 'B', ig: 'myzdfzn', ytb: 'UCDq7n5XkZIOIfD30hLfTXGg', tt: 'myzdfzn'},
             {id: 2, np: 'tama', img: 'tama.jpg', nl: 'muhammad rizky pratama', tl: '06 Juni 1997', zd: 'Gemini', tb: '172 cm', bb: '58 kg', gd: '-', ig: 'rzkytmaa', ytb: '-', tt: '-'},
             {id: 3, np: 'shaldan', img: 'shaldan.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'shaldan_tama', ytb: '-', tt: '-'},
             {id: 4, np: 'frenklyn', img: 'frenklyn.jpg', nl: 'frenklyn fenuel febe', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'frenclean._', ytb: '-', tt: '-'},
@@ -16,7 +16,7 @@ document.addEventListener('alpine:init', () => {
             {id: 13, np: 'ericka', img: 'ericka.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'ericka_l0630', ytb: '-', tt: '-'},
             {id: 14, np: 'kezia', img: 'kezia.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'kezialntn', ytb: '-', tt: '-'},
             {id: 15, np: 'nazwa', img: 'nazwa.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'nazwaywndra.p', ytb: '-', tt: '-'},
-            {id: 16, np: 'arra', img: 'arra.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'riiirap', ytb: '-', tt: '-'},
+            {id: 16, np: 'arra', img: 'arra.jpg', nl: 'azzahra rizqilla safitri', tl: '07 Juli 2002', zd: 'Cancer', tb: '168 cm', bb: '50 kg', gd: 'O', ig: 'riiirap', ytb: '-', tt: 'changbinssi'},
             {id: 17, np: 'gesya', img: 'gesya.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'princessaagesya', ytb: '-', tt: '-'},
             {id: 18, np: 'aqila', img: 'aqila.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'aqu_aqila', ytb: '-', tt: '-'},
             {id: 19, np: 'kyu', img: 'kyu.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'qistyping', ytb: '-', tt: '-'},
