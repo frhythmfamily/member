@@ -229,7 +229,7 @@ footer .credit p {
     position: relative;
     background-color: #fefefe;
     color: var(--primary);
-    margin: 35% auto;
+    margin: 15% auto;
     padding: 1.2rem;
     border: 1px solid #666;
     height: fit-content;
@@ -374,6 +374,7 @@ footer .credit p {
 
     .modal .modal-container {
         width: 80%;
+        margin: 35% auto;
     }
 
     .modal-content {
