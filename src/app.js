@@ -1,31 +1,52 @@
 document.addEventListener('alpine:init', () => {
     Alpine.data('members', () => ({
         items: [
-            {id: 1, name: 'zan', img: 'zan.jpg'},
-            {id: 2, name: 'tama', img: 'tama.jpg'},
-            {id: 3, name: 'shaldan', img: 'shaldan.jpg'},
-            {id: 4, name: 'frenklyn', img: 'frenklyn.jpg'},
-            {id: 5, name: 'raihan', img: 'raihan.jpg'},
-            {id: 6, name: 'iqbal', img: 'iqbal.jpg'},
-            {id: 7, name: 'alica', img: 'alica.jpg'},
-            {id: 8, name: 'mita', img: 'mita.jpg'},
-            {id: 9, name: 'dinda', img: 'dinda.jpg'},
-            {id: 10, name: 'sarah', img: 'sarah.jpg'},
-            {id: 11, name: 'neska', img: 'neska.jpg'},
-            {id: 12, name: 'mina', img: 'mina.jpg'},
-            {id: 13, name: 'ericka', img: 'ericka.jpg'},
-            {id: 14, name: 'kezia', img: 'kezia.jpg'},
-            {id: 15, name: 'nazwa', img: 'nazwa.jpg'},
-            {id: 16, name: 'arra', img: 'arra.jpg'},
-            {id: 17, name: 'gesya', img: 'gesya.jpg'},
-            {id: 18, name: 'aqila', img: 'aqila.jpg'},
-            {id: 19, name: 'kyu', img: 'kyu.jpg'},
-            {id: 20, name: 'laura', img: 'laura.jpg'},
-            {id: 21, name: 'felycia', img: 'felycia.jpg'},
-            {id: 22, name: 'bernice', img: 'bernice.jpg'},
-            {id: 23, name: 'nadia', img: 'nadia.jpg'},
-            {id: 24, name: 'ervid', img: 'ervid.jpg'},
-            {id: 25, name: 'michelle', img: 'michelle.jpg'}
+            {id: 1, np: 'zan', img: 'zan.jpg', nl: 'muhammad yazid fauzan', tl: '11 Juli 1997', zd: 'Cancer', tb: '168 cm', bb: '50 kg', gd: 'B', ig: 'myzdfzn', ytb: 'UCDq7n5XkZIOIfD30hLfTXGg', tt: 'myzdfzn'},
+            {id: 2, np: 'tama', img: 'tama.jpg', nl: 'muhammad rizky pratama', tl: '06 Juni 1997', zd: 'Gemini', tb: '172 cm', bb: '58 kg', gd: '-', ig: 'rzkytmaa', ytb: '-', tt: '-'},
+            {id: 3, np: 'shaldan', img: 'shaldan.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'shaldan_tama', ytb: '-', tt: '-'},
+            {id: 4, np: 'frenklyn', img: 'frenklyn.jpg', nl: 'frenklyn fenuel febe', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'frenclean._', ytb: '-', tt: '-'},
+            {id: 5, np: 'raihan', img: 'raihan.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'frappe.joe', ytb: '-', tt: '-'},
+            {id: 6, np: 'iqbal', img: 'iqbal.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'onlybal88', ytb: '-', tt: '-'},
+            {id: 7, np: 'alica', img: 'alica.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'alicaapriliaxx', ytb: '-', tt: '-'},
+            {id: 8, np: 'mita', img: 'mita.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'hermitaliana', ytb: '-', tt: '-'},
+            {id: 9, np: 'dinda', img: 'dinda.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'dndaa7jie', ytb: '-', tt: '-'},
+            {id: 10, np: 'sarah', img: 'sarah.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'srhxbi121', ytb: '-', tt: '-'},
+            {id: 11, np: 'neska', img: 'neska.jpg', nl: 'neiska maulidya', tl: '25 Juni 2000', zd: 'Cancer', tb: '- cm', bb: '- kg', gd: '-', ig: 'neiskamaulidya', ytb: '-', tt: '-'},
+            {id: 12, np: 'mina', img: 'mina.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'irmina._', ytb: '-', tt: '-'},
+            {id: 13, np: 'ericka', img: 'ericka.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'ericka_l0630', ytb: '-', tt: '-'},
+            {id: 14, np: 'kezia', img: 'kezia.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'kezialntn', ytb: '-', tt: '-'},
+            {id: 15, np: 'nazwa', img: 'nazwa.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'nazwaywndra.p', ytb: '-', tt: '-'},
+            {id: 16, np: 'arra', img: 'arra.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'riiirap', ytb: '-', tt: '-'},
+            {id: 17, np: 'gesya', img: 'gesya.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'princessaagesya', ytb: '-', tt: '-'},
+            {id: 18, np: 'aqila', img: 'aqila.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'aqu_aqila', ytb: '-', tt: '-'},
+            {id: 19, np: 'kyu', img: 'kyu.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'qistyping', ytb: '-', tt: '-'},
+            {id: 20, np: 'laura', img: 'laura.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'lauranggr_', ytb: '-', tt: '-'},
+            {id: 21, np: 'felycia', img: 'felycia.jpg', nl: 'felycia stevanie', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'icylef_a.s', ytb: '-', tt: '-'},
+            {id: 22, np: 'bernice', img: 'bernice.jpg', nl: 'bernice velonia brigyta', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'bernice.vb._', ytb: '-', tt: '-'},
+            {id: 23, np: 'nadia', img: 'nadia.jpg', nl: 'nadia aulia vanesya', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'justt.nadx', ytb: '-', tt: '-'},
+            {id: 24, np: 'ervid', img: 'ervid.jpg', nl: 'ervid appezaril chiang', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'ervid_12', ytb: '-', tt: '-'},
+            {id: 25, np: 'michelle', img: 'michelle.jpg', nl: 'michelle angeliena richci', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'millyyy_levornka', ytb: '-', tt: '-'}
         ]
     }));
+
+    Alpine.store('details', {
+        showDetail: false,
+        selectedItem: {},
+        detailItem(member) {
+            this.selectedItem = member;
+            this.showDetail = true;
+            // console.log(member, this.showDetail);
+        }
+    });
 });
+
+window.alpineComponent = () => {
+    return {
+        shouldShowSocials() {
+            const selectedItem = this.$store.details.selectedItem;
+
+            // Check if any social media value is "-"
+            return selectedItem.ig !== '-' || selectedItem.ytb !== '-' || selectedItem.tt !== '-';
+        }
+    };
+};

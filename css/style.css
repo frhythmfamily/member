@@ -48,7 +48,7 @@ body {
     top: 0;
     /* left: 0; */
     /* right: 0; */
-    z-index: 9999;
+    z-index: 999;
 }
 
 .navbar .navbar-logo {
@@ -211,6 +211,105 @@ footer .credit p {
     font-weight: 700;
 }
 
+/* Modal Box */
+/* Item Detail */
+.modal {
+    display: flex;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal .modal-container {
+    position: relative;
+    background-color: #fefefe;
+    color: var(--primary);
+    margin: 15% auto;
+    padding: 1.2rem;
+    border: 1px solid #666;
+    height: fit-content;
+    width: fit-content;
+    animation: animateModal 0.5s;
+}
+
+.modal .modal-container a {
+    color: var(--primary);
+}
+
+.modal .modal-container a:hover {
+    color: var(--red);
+}
+
+/* Modal Animation */
+@keyframes animateModal {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+.modal-container .close-icon {
+    fill: var(--primary);
+    position: absolute;
+    right: 1rem;
+}
+
+.modal-content {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 50rem;
+}
+
+.modal-content img {
+    height: 20rem;
+    margin-right: 2rem;
+}
+
+.modal-content .member-content h3 {
+    color: var(--primary);
+    height: 2rem;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    margin: 1.2rem 0;
+}
+
+.modal-content .member-content .row h2 .np,
+.modal-content .member-content .row h2 .nl {
+    text-transform: capitalize;
+}
+
+.modal-content .socials {
+    display: flex;
+    justify-content: left;
+    gap: 1rem;
+    width: 100%;
+    background-color: var(--bg);
+    color: var(--primary);
+    margin-top: 1rem;
+    padding: 1rem 0;
+}
+
+.modal-content .socials a {
+    color: var(--primary);
+}
+
+.modal-content .socials a:hover,
+.modal-content .socials .tiktok:hover {
+    color: var(--red);
+    fill: var(--red);
+}
+
 /* Media Queries */
 @media (min-width: 980px) {
     .wrap {
@@ -246,7 +345,7 @@ footer .credit p {
         top: 100%;
         right: -100%;
         background-color: #fff;
-        width: 30rem;
+        width: 25rem;
         height: 100vh;
         transition: 0.5s;
     }
