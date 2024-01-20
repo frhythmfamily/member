@@ -214,7 +214,7 @@ footer .credit p {
 /* Modal Box */
 /* Item Detail */
 .modal {
-    display: flex;
+    /* display: flex; */
     position: fixed;
     z-index: 9999;
     left: 0;
