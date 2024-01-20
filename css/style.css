@@ -296,8 +296,7 @@ footer .credit p {
     width: 100%;
     background-color: var(--bg);
     color: var(--primary);
-    margin-top: 1rem;
-    padding: 1rem 0;
+    padding-top: 1rem;
 }
 
 .modal-content .socials a {
@@ -385,6 +384,12 @@ footer .credit p {
 /* Mobile Phone */
 @media (max-width: 616px) {
     html {
-        font-size: 60%;
+        font-size: 50%;
+    }
+
+    .modal-content .member-content .socials a,
+    .modal-content .member-content .socials .tiktok {
+        color: var(--primary);
+        transform: scale(0.7);
     }
 }
