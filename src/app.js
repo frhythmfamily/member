@@ -11,7 +11,7 @@ document.addEventListener('alpine:init', () => {
             {id: 8, np: 'mita', img: 'mita.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'hermitaliana', ytb: '-', tt: '-'},
             {id: 9, np: 'dinda', img: 'dinda.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'dndaa7jie', ytb: '-', tt: '-'},
             {id: 10, np: 'sarah', img: 'sarah.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'srhxbi121', ytb: '-', tt: '-'},
-            {id: 11, np: 'neska', img: 'neska.jpg', nl: 'neiska maulidya', tl: '25 Juni 2000', zd: 'Cancer', tb: '- cm', bb: '- kg', gd: '-', ig: 'neiskamaulidya', ytb: '-', tt: '-'},
+            {id: 11, np: 'neska', img: 'neska.jpg', nl: 'neiska maulidya', tl: '25 Juni 2000', zd: 'Cancer', tb: '153 cm', bb: '43 kg', gd: 'A', ig: 'neiskamaulidya', ytb: '-', tt: '-'},
             {id: 12, np: 'mina', img: 'mina.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'irmina._', ytb: '-', tt: '-'},
             {id: 13, np: 'ericka', img: 'ericka.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'ericka_l0630', ytb: '-', tt: '-'},
             {id: 14, np: 'kezia', img: 'kezia.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'kezialntn', ytb: '-', tt: '-'},
