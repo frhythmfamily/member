@@ -229,7 +229,7 @@ footer .credit p {
     position: relative;
     background-color: #fefefe;
     color: var(--primary);
-    margin: 15% auto;
+    margin: 35% auto;
     padding: 1.2rem;
     border: 1px solid #666;
     height: fit-content;
@@ -370,6 +370,14 @@ footer .credit p {
     .navbar .navbar-nav a:hover::after,
     .navbar .navbar-nav a.active::after {
         transform: scaleX(1);
+    }
+
+    .modal .modal-container {
+        width: 80%;
+    }
+
+    .modal-content {
+        width: auto;
     }
 }
 
