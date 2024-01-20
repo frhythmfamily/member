@@ -395,15 +395,18 @@ footer .credit p {
 
     .modal .modal-container .modal-content .member-content h3 {
         font-size: 1.2rem;
+        margin: 0;
+        height: 1.8rem;
     }
 
     .modal .modal-container .modal-content .member-content .row {
         font-size: 0.6rem;
+        line-height: 1.2rem;
     }
 
     .modal .modal-container .modal-content .member-content .row .socials {
         width: 3rem;
-        height: 3rem;
+        height: 1.5rem;
         padding-top: 0;
     }
 
@@ -411,7 +414,8 @@ footer .credit p {
         transform: scale(0.5);
     }
     .modal-container .modal-content img {
-        font-size: rem;
+        width: 12rem;
+        height: 12rem;
     }
 
     .navbar .navbar-nav {
