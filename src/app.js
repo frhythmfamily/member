@@ -17,7 +17,7 @@ document.addEventListener('alpine:init', () => {
             {id: 14, np: 'kezia', img: 'kezia.jpg', nl: 'Kezia Lenatan', tl: '1 Agustus 2007', zd: 'Leo', tb: '160 cm', bb: '50 kg', gd: '-', ig: 'kezialntn', ytb: '-', tt: '-'},
             {id: 15, np: 'nazwa', img: 'nazwa.jpg', nl: 'nazwa yuwandira putri', tl: '30 Desember 2005', zd: 'Capricorn', tb: '166 cm', bb: '50 kg', gd: 'O', ig: 'nazwaywndra.p', ytb: '-', tt: 'fumii_koo_'},
             {id: 16, np: 'arra', img: 'arra.jpg', nl: 'azzahra rizqilla safitri', tl: '07 Juli 2002', zd: 'Cancer', tb: '168 cm', bb: '50 kg', gd: 'O', ig: 'riiirap', ytb: '-', tt: 'changbinssi'},
-            {id: 17, np: 'gesya', img: 'gesya.jpg', nl: 'destiny pricessa adinda gesya', tl: '20 Mei 2011', zd: 'Taurus', tb: '167 cm', bb: '45 kg', gd: 'B', ig: 'princessaagesya', ytb: '-', tt: '-'},
+            {id: 17, np: 'gesya', img: 'gesya.jpg', nl: 'destiny princessa adinda gesya', tl: '20 Mei 2011', zd: 'Taurus', tb: '167 cm', bb: '45 kg', gd: 'B', ig: 'princessaagesya', ytb: '-', tt: '-'},
             {id: 18, np: 'aqila', img: 'aqila.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'aqu_aqila', ytb: '-', tt: '-'},
             {id: 19, np: 'kyu', img: 'kyu.jpg', nl: 'quaneisha farraz kadziyah tsamarah', tl: '01 Mei 2008', zd: 'Taurus', tb: '148 cm', bb: '49 kg', gd: 'A', ig: 'qistyping', ytb: '-', tt: 'qistyping'},
             {id: 20, np: 'laura', img: 'laura.jpg', nl: 'laura anggraini', tl: '06 November 1999', zd: 'Scorpio', tb: '169 cm', bb: '55 kg', gd: 'O', ig: 'lauranggr_', ytb: '-', tt: '-'},
