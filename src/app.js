@@ -5,7 +5,7 @@ document.addEventListener('alpine:init', () => {
             {id: 2, np: 'tama', img: 'tama.jpg', nl: 'muhammad rizky pratama', tl: '06 Juni 1997', zd: 'Gemini', tb: '172 cm', bb: '58 kg', gd: '-', ig: 'rzkytmaa', ytb: '-', tt: '-'},
             {id: 3, np: 'shaldan', img: 'shaldan.jpg', nl: 'shaldan iman utama', tl: '09 Maret 2004', zd: 'Pisces', tb: '174 cm', bb: '60 kg', gd: '-', ig: 'shaldan_tama', ytb: '-', tt: '-'},
             {id: 4, np: 'frenklyn', img: 'frenklyn.jpg', nl: 'frenklyn fenuel febe', tl: '06 September 2022', zd: 'Virgo', tb: '170 cm', bb: '58 kg', gd: 'O', ig: 'frenclean._', ytb: 'frenclean._', tt: 'frenclean'},
-            {id: 5, np: 'raihan', img: 'raihan.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'frappe.joe', ytb: '-', tt: '-'},
+            {id: 5, np: 'raihan', img: 'raihan.jpg', nl: 'muhammad raihan pahlevi', tl: '14 Juni 2007', zd: 'Gemini', tb: '170 cm', bb: '74 kg', gd: 'O', ig: 'frappe.joe_', ytb: '-', tt: 'jijijiwoooo'},
             {id: 6, np: 'iqbal', img: 'iqbal.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'onlybal88', ytb: '-', tt: '-'},
             {id: 7, np: 'alica', img: 'alica.jpg', nl: 'alica aprilia fandini', tl: '08 April 2003', zd: 'Aries', tb: '153 cm', bb: '50 kg', gd: 'A', ig: 'alicaapriliaxx', ytb: '-', tt: 'oceanllie'},
             {id: 8, np: 'mita', img: 'mita.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'hermitaliana', ytb: '-', tt: '-'},
