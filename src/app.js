@@ -12,7 +12,7 @@ document.addEventListener('alpine:init', () => {
             {id: 9, np: 'dinda', img: 'dinda.jpg', nl: 'dinda ayu pramutia', tl: '30 Januari 2005', zd: 'Aquarius', tb: '150 cm', bb: '47 kg', gd: 'A', ig: 'dndaa7jie', ytb: '-', tt: 'fankthnikochan'},
             {id: 10, np: 'sarah', img: 'sarah.jpg', nl: 'sarah fadila ramadhani', tl: '11 November 2004', zd: 'Scorpio', tb: '167 cm', bb: '52 kg', gd: 'A', ig: 'srhxbi121', ytb: '-', tt: 'disinidisana8'},
             {id: 11, np: 'neska', img: 'neska.jpg', nl: 'neiska maulidya', tl: '25 Juni 2000', zd: 'Cancer', tb: '153 cm', bb: '43 kg', gd: 'A', ig: 'neiskamaulidya', ytb: '-', tt: 'hanjjikseu'},
-            {id: 12, np: 'mina', img: 'mina.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'irmina._', ytb: '-', tt: '-'},
+            {id: 12, np: 'mina', img: 'mina.jpg', nl: 'Irmina Citrawati', tl: '28 November 2000', zd: 'Sagitarius', tb: '155 cm', bb: '47 kg', gd: 'AB', ig: 'irmina._', ytb: '-', tt: 'irmina.c'},
             {id: 13, np: 'ericka', img: 'ericka.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'ericka_l0630', ytb: '-', tt: '-'},
             {id: 14, np: 'kezia', img: 'kezia.jpg', nl: 'Kezia Lenatan', tl: '1 Agustus 2007', zd: 'Leo', tb: '160 cm', bb: '50 kg', gd: '-', ig: 'kezialntn', ytb: '-', tt: '-'},
             {id: 15, np: 'nazwa', img: 'nazwa.jpg', nl: 'nazwa yuwandira putri', tl: '30 Desember 2005', zd: 'Capricorn', tb: '166 cm', bb: '50 kg', gd: 'O', ig: 'nazwaywndra.p', ytb: '-', tt: 'fumii_koo_'},
