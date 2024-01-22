@@ -109,7 +109,7 @@
                             <h2>Golongan Darah : <span x-text="$store.details.selectedItem.gd"></span></h2>
                             <div class="socials" x-data="alpineComponent()" x-show="shouldShowSocials()">
                                 <a :href="'https://www.instagram.com/' + $store.details.selectedItem.ig" x-bind:hidden="$store.details.selectedItem.ig === '-'"><i data-feather="instagram"></i></a>
-                                <a :href="'https://www.youtube.com/channel/' + $store.details.selectedItem.ytb" x-bind:hidden="$store.details.selectedItem.ytb === '-'"><i data-feather="youtube"></i></a>
+                                <a :href="'https://www.youtube.com/@' + $store.details.selectedItem.ytb" x-bind:hidden="$store.details.selectedItem.ytb === '-'"><i data-feather="youtube"></i></a>
                                 <a :href="'https://www.tiktok.com/@' + $store.details.selectedItem.tt" x-bind:hidden="$store.details.selectedItem.tt === '-'">
                                     <svg class="tiktok" xmlns="http://www.w3.org/2000/svg" fill="#282828" width="24px" height="24px" viewBox="0 0 512 512" id="icons">
                                         <path
