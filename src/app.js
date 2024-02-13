@@ -8,7 +8,7 @@ document.addEventListener('alpine:init', () => {
             {id: 5, np: 'raihan', img: 'raihan.jpg', nl: 'muhammad raihan pahlevi', tl: '14 Juni 2007', zd: 'Gemini', tb: '170 cm', bb: '74 kg', gd: 'O', ig: 'frappe.joe_', ytb: '-', tt: 'jijijiwoooo'},
             {id: 6, np: 'iqbal', img: 'iqbal.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'onlybal88', ytb: '-', tt: '-'},
             {id: 7, np: 'alica', img: 'alica.jpg', nl: 'alica aprilia fandini', tl: '08 April 2003', zd: 'Aries', tb: '153 cm', bb: '50 kg', gd: 'A', ig: 'alicaapriliaxx', ytb: '-', tt: 'oceanllie'},
-            {id: 8, np: 'mita', img: 'mita.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'hermitaliana', ytb: '-', tt: '-'},
+            {id: 8, np: 'mita', img: 'mita.jpg', nl: 'hermiata liana', tl: '07 September 2003', zd: 'virgo', tb: '153 cm', bb: '48 kg', gd: '-', ig: 'hermitaliana', ytb: '-', tt: 'hzrmytx'},
             {id: 9, np: 'dinda', img: 'dinda.jpg', nl: 'dinda ayu pramutia', tl: '30 Januari 2005', zd: 'Aquarius', tb: '150 cm', bb: '47 kg', gd: 'A', ig: 'dndaa7jie', ytb: '-', tt: 'fankthnikochan'},
             {id: 10, np: 'sarah', img: 'sarah.jpg', nl: 'sarah fadila ramadhani', tl: '11 November 2004', zd: 'Scorpio', tb: '167 cm', bb: '52 kg', gd: 'A', ig: 'srhxbi121', ytb: '-', tt: 'disinidisana8'},
             {id: 11, np: 'neska', img: 'neska.jpg', nl: 'neiska maulidya', tl: '25 Juni 2000', zd: 'Cancer', tb: '153 cm', bb: '43 kg', gd: 'A', ig: 'neiskamaulidya', ytb: '-', tt: 'hanjjikseu'},
