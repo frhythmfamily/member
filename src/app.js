@@ -21,13 +21,12 @@ document.addEventListener('alpine:init', () => {
             {id: 18, np: 'felycia', img: 'felycia.jpg', nl: 'felycia stevanie', tl: '12 Juni 2007', zd: 'Gemini', tb: '155 cm', bb: '42 kg', gd: 'O', ig: 'icylef_a.s', ytb: '-', tt: 'f_vanieee'},
             {id: 19, np: 'bernice', img: 'bernice.jpg', nl: 'bernice velonia brigyta', tl: '11 Oktober 2009', zd: 'Libra', tb: '155 cm', bb: '42 kg', gd: 'O', ig: 'bernice.vb._', ytb: '-', tt: 'rnv3l0'},
             {id: 20, np: 'nadia', img: 'nadia.jpg', nl: 'nadia aulia vanesya', tl: '7 Juli 2011', zd: 'Cancer', tb: '161 cm', bb: '39 kg', gd: 'O', ig: 'justt.nadx', ytb: '-', tt: 'nadianormalbanget'},
-            {id: 21, np: 'ervid', img: 'ervid.jpg', nl: 'ervid appezaril chiang', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: 'ervid_12', ytb: '-', tt: '-'},
-            {id: 22, np: 'michelle', img: 'michelle.jpg', nl: 'michelle angeliena richci', tl: '24 Mei 2008', zd: 'Gemini', tb: '153 cm', bb: '43 kg', gd: 'O', ig: 'millyyy_levornka', ytb: '-', tt: 'millyyy_levornka'},
-            {id: 23, np: 'rani', img: 'rani.jpg', nl: 'zamarani', tl: '19 Maret 2005', zd: 'Pisces', tb: '150 cm', bb: '50 kg', gd: 'AB', ig: 'ra_neyy', ytb: '-', tt: '-'},
-            {id: 24, np: 'made', img: 'made.jpg', nl: 'ni made zivara elviana', tl: '28 Juli 2011', zd: 'Leo', tb: '173 cm', bb: '61 kg', gd: 'O', ig: 'hwangrenjunq', ytb: '-', tt: 'avocadoesq'},
-            {id: 25, np: 'zahra', img: 'zahra.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: '-', ytb: '-', tt: '-'},
-            {id: 26, np: 'zefa', img: 'zefa.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: '-', ytb: '-', tt: '-'},
-            {id: 27, np: 'endang', img: 'endang.jpg', nl: 'Endang Sulistiawati', tl: '21 Mei 2004', zd: 'Gemini', tb: '162 cm', bb: '48 kg', gd: 'B+', ig: 'illlaszs', ytb: '-', tt: 'illlaszs'}
+            {id: 21, np: 'michelle', img: 'michelle.jpg', nl: 'michelle angeliena richci', tl: '24 Mei 2008', zd: 'Gemini', tb: '153 cm', bb: '43 kg', gd: 'O', ig: 'millyyy_levornka', ytb: '-', tt: 'millyyy_levornka'},
+            {id: 22, np: 'rani', img: 'rani.jpg', nl: 'zamarani', tl: '19 Maret 2005', zd: 'Pisces', tb: '150 cm', bb: '50 kg', gd: 'AB', ig: 'ra_neyy', ytb: '-', tt: '-'},
+            {id: 23, np: 'made', img: 'made.jpg', nl: 'ni made zivara elviana', tl: '28 Juli 2011', zd: 'Leo', tb: '173 cm', bb: '61 kg', gd: 'O', ig: 'hwangrenjunq', ytb: '-', tt: 'avocadoesq'},
+            {id: 24, np: 'zahra', img: 'zahra.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: '-', ytb: '-', tt: '-'},
+            {id: 25, np: 'zefa', img: 'zefa.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: '-', ytb: '-', tt: '-'},
+            {id: 26, np: 'endang', img: 'endang.jpg', nl: 'Endang Sulistiawati', tl: '21 Mei 2004', zd: 'Gemini', tb: '162 cm', bb: '48 kg', gd: 'B+', ig: 'illlaszs', ytb: '-', tt: 'illlaszs'}
         ]
     }));
 
