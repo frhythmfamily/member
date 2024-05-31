@@ -27,7 +27,7 @@ document.addEventListener('alpine:init', () => {
             {id: 24, np: 'zahra', img: 'zahra.jpg', nl: '-', tl: '-', zd: '-', tb: '- cm', bb: '- kg', gd: '-', ig: '-', ytb: '-', tt: '-'},
             {id: 25, np: 'zefa', img: 'zefa.jpg', nl: 'zefanya debora', tl: '21 November 2006', zd: 'Virgo', tb: '162 cm', bb: '55 kg', gd: 'B', ig: 'aanyafez', ytb: '-', tt: '-'},
             {id: 26, np: 'endang', img: 'endang.jpg', nl: 'endang sulistiawati', tl: '21 Mei 2004', zd: 'Gemini', tb: '162 cm', bb: '48 kg', gd: 'B+', ig: 'illlaszs', ytb: '-', tt: 'illlaszs'},
-            {id: 27, np: 'cekoy', img: 'cekoy.jpg', nl: 'choirunisa', tl: '21 Juni 2004', zd: 'Gemini', tb: '167 cm', bb: '45 kg', gd: 'B', ig: 'cekoycekoy', ytb: 'choirunisa9369', tt: 'cekoy_uyoung'}
+            {id: 27, np: 'cekoy', img: 'cekoy.jpg', nl: 'choirunisa', tl: '21 Juni 2004', zd: 'Gemini', tb: '167 cm', bb: '45 kg', gd: 'O', ig: 'cekoycekoy', ytb: 'choirunisa9369', tt: 'cekoy_uyoung'}
         ]
     }));
 
