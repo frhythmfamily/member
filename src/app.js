@@ -4,7 +4,7 @@ document.addEventListener('alpine:init', () => {
             {id: 1, np: 'zan', img: 'zan.jpg', nl: 'muhammad yazid fauzan', tl: '11 Juli 1997', zd: 'Cancer', tb: '165 cm', bb: '50 kg', gd: 'B', ig: 'myzdfzn', ytb: 'MYFauzan', tt: 'myzdfzn'},
             {id: 2, np: 'tama', img: 'tama.jpg', nl: 'muhammad rizky pratama', tl: '06 Juni 1997', zd: 'Gemini', tb: '172 cm', bb: '58 kg', gd: '-', ig: 'rzkytmaa', ytb: '-', tt: '-'},
             {id: 3, np: 'shaldan', img: 'shaldan.jpg', nl: 'shaldan iman utama', tl: '09 Maret 2004', zd: 'Pisces', tb: '174 cm', bb: '60 kg', gd: '-', ig: 'shaldan_tama', ytb: '-', tt: '-'},
-            {id: 4, np: 'frenklyn', img: 'frenklyn.jpg', nl: 'frenklyn fenuel febe', tl: '06 September 2022', zd: 'Virgo', tb: '170 cm', bb: '58 kg', gd: 'O', ig: 'frenclean._', ytb: 'frenclean._', tt: 'frenclean'},
+            {id: 4, np: 'frenklyn', img: 'frenklyn.jpg', nl: 'frenklyn fenuel febe', tl: '06 September 2002', zd: 'Virgo', tb: '170 cm', bb: '58 kg', gd: 'O', ig: 'frenclean._', ytb: 'frenclean._', tt: 'frenclean'},
             {id: 5, np: 'alica', img: 'alica.jpg', nl: 'alica aprilia fandini', tl: '08 April 2003', zd: 'Aries', tb: '153 cm', bb: '50 kg', gd: 'A', ig: 'alicaapriliaxx', ytb: '-', tt: 'oceanllie'},
             {id: 6, np: 'mita', img: 'mita.jpg', nl: 'hermiata liana', tl: '07 September 2003', zd: 'virgo', tb: '153 cm', bb: '48 kg', gd: '-', ig: 'hermitaliana', ytb: '-', tt: 'hzrmytx'},
             {id: 7, np: 'dinda', img: 'dinda.jpg', nl: 'dinda ayu pramutia', tl: '30 Januari 2005', zd: 'Aquarius', tb: '150 cm', bb: '47 kg', gd: 'A', ig: 'dndaa7jie', ytb: '-', tt: 'fankthnikochan'},
